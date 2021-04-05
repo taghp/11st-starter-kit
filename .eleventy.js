@@ -33,9 +33,9 @@ module.exports = function (config) {
       output: 'src/_site',
     },
     passthroughFileCopy: true,
-    templateFormats: ['html', 'md', 'liquid'],
-    htmlTemplateEngine: 'liquid',
-    dataTemplateEngine: 'liquid',
-    markdownTemplateEngine: 'liquid',
+    templateFormats: ['html', 'md', 'liquid', 'njk'],
+    htmlTemplateEngine: 'liquid', 'njk',
+    dataTemplateEngine: 'liquid', 'njk',
+    markdownTemplateEngine: 'liquid', 'njk',
   };
 };
