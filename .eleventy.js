@@ -34,8 +34,8 @@ module.exports = function (config) {
     },
     passthroughFileCopy: true,
     templateFormats: ['html', 'md', 'liquid', 'njk'],
-    htmlTemplateEngine: 'liquid', 'njk',
-    dataTemplateEngine: 'liquid', 'njk',
-    markdownTemplateEngine: 'liquid', 'njk',
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    markdownTemplateEngine: 'njk',
   };
 };
